@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+
+.header{
+    width: 100%;
+    height: 55px;
+    border-bottom: 0.5px rgb(234, 231, 231) solid;
+    cursor: pointer;
+}
+.header .left-side{
+    width: 80%;
+    height: 55px;
+    float: left;
+}
+#logo{
+    width: 0.7cm
+}
+.header .image-logo{
+    padding-top: 13px;
+    padding-left: 25px;
+    float: left;
+}
+.header .logo-name{
+    float: left;
+    margin-left: 5px;
+    padding-top: 19px;
+    font-size: larger;
+    font-weight: 600!important;
+    line-height: 16px;
+}
+.header .left-text{
+    float: left;
+    margin-left: 30px;
+    padding-top: 16px;
+    display: block;
+    font-size: large;
+    font-weight: 20px;
+}
+.drop-box{
+   border-color: white;
+   width: 95px;
+   cursor: pointer;
+   font-size: 15px;
+   font-weight:500;
+}
+
+.box{
+    float: left;
+    margin-left: 10px;
+}
+ .header a, #a1{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+
+.header .right-side{
+    float: right;
+    width: 20%;
+    height: 55px;
+}
+.header .right-side .login{
+    float: right;
+    margin-right: 40px;
+    margin-top: 17px;
+}
+button{
+    border-color: black;
+    border-width: 1px;
+    background-color: white;
+}
+
+.header2{
+    width: 100%;
+    height: 110px;
+    border-bottom: 0.5px rgb(234, 231, 231) solid;
+}
+.header2 .left-side{
+    width: 50%;
+    height: 25px;
+    padding: 15px;
+    font-size: large;
+}
+
+.header2 a{
+    color: #0693e3;
+    font-size: 14px;
+}
+.header2 .right-side{
+    width: 45%;
+    float: right;
+}
+.header2 .right-side .course{
+    float: right;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+.symbol{
+    color: grey;
+    align-items: center;
+}
+
+.body{
+    width: 100%;
+    height: auto;
+}
+.body .left-body{
+    width: 20%;
+    height: 700px;
+    border-right: 0.5px rgb(234, 231, 231) solid;
+    padding-top: 30px;
+    padding-left: 20px;
+    line-height: 30px;
+    position: fixed;
+}
+.radios{
+    padding-left: 10px;
+    padding-top: 8px;
+    font-size: 14px;
+    cursor: pointer;    
+}
+.radios :hover{
+    text-decoration: underline;
+}
+.left-body .button{
+   margin-left: 130px;
+   font-size: 20px;
+   color: rgb(126, 123, 123);
+   border-color: white;
+   background-color: white;
+}
+.middle-body {
+    float: left;
+    font-size: 16px;
+    width: 40%;
+    margin-left: 21.2%;
+    padding-left: 100px;
+    line-height: 1.5;
+    line-height: 25px;
+    letter-spacing: .12px;
+}
+.middle-body h1{
+    color: rgb(27, 26, 26);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    letter-spacing: -normal-; 
+    font-size: 32px;
+    padding-top: 15px;
+}
+.middle-body .first{
+    border-bottom: 0.5px rgb(234, 231, 231) solid;
+    padding-bottom: 35px;
+}
+.middle-body h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+}
+.middle-body .alink, .right-body .alink{
+    color:#0675c4;
+    cursor: pointer;
+}
+.middle-body .alink, .right-body .alink:hover{
+    text-decoration: underline;
+}
+.middle-body img{
+    width: 600px;
+}
+.middle-body .second{
+    border-bottom: 0.5px rgb(234, 231, 231) solid;
+    padding-bottom: 35px;
+}
+.middle-body .third{
+    border-bottom: 0.5px rgb(234, 231, 231) solid;
+    padding-bottom: 35px;
+}
+.middle-body .previous {
+    order: 2;
+    float: left;
+}
+.middle-body .next{
+    float:right
+}
+.middle-body .last{
+    border-bottom: 0.5px rgb(234, 231, 231) solid;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.last button{
+    background-color: #0c79c7;
+    width: 2.2cm;
+    height: 1.1cm;
+    border-radius: 0.15cm;
+    border-color: white;
+    color: white;
+    margin-left: 5px;
+}
+.middle-body .bottom{
+    margin-top: 40px;
+    line-height: 12px;
+    margin-bottom: 50px;
+}
+#search {
+    background-color: #f6f7f7;
+    border: white;
+    height: 56px;
+    width: 100%;
+}
+.body .right-body{
+    border: 0.5px rgb(247, 246, 246) solid;
+    width: 20%;
+    float: left;
+    height: auto;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    margin-left: 1100px;
+    margin-top: 40px;
+    text-align: left;
+    position: fixed;
+    margin-bottom: 100px;
+}
+.right-body .table{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    border-bottom: 0.5px rgb(247, 246, 246) solid;
+}
+#a11{
+    color: black;
+}
+.question img{
+    width: 0.5cm;
+    height: 0.5cm;
+}
+#top-arrow{
+    width: 0.5cm;
+    height: 0.5cm;
+}
